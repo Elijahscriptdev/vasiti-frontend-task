@@ -1,12 +1,19 @@
 import React from "react";
 import "./Testimony.css";
 import Img from "../../assets/Group 89 (1) (1).png";
+import Img1 from "../../assets/woman-shoppingbag-card 1.png";
 import Test1 from "../../assets/Ellipse 22.png";
 import Test2 from "../../assets/Ellipse 23.png";
 import Test3 from "../../assets/Ellipse 24.png";
 import Test4 from "../../assets/Ellipse 22 (1).png";
 import Test5 from "../../assets/Ellipse 23 (1).png";
 import Test6 from "../../assets/Ellipse 24 (1).png";
+import Test7 from "../../assets/Ellipse 22 (2).png";
+import Test8 from "../../assets/Ellipse 23 (2).png";
+import Test9 from "../../assets/Ellipse 24 (2).png";
+import Test10 from "../../assets/Ellipse 22 (3).png";
+import Test11 from "../../assets/Ellipse 23 (3).png";
+import Test12 from "../../assets/Ellipse 24 (3).png";
 import Grid from "@material-ui/core/Grid";
 
 const Testimony = () => {
@@ -157,6 +164,160 @@ const Testimony = () => {
               <h1>Chidi Okeke</h1>
               <div className='customers-fluid'>
                 <span className='customer-location'>In Somolu</span>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat
+                nostrud irure ex duis ea quis id quis ad et. Sunt qui esse
+                pariatur duis deserunt mollit dolore cillum minim tempor enim.
+              </p>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+
+      <div className='testimony-content2'>
+        <div className='testimony-container'>
+          <Grid container>
+            <Grid item xs={12} sm={6}>
+              <div className='customer-content'>
+                <div className='customer-text'>
+                  <h1>Tolu & Joy’s Experience</h1>
+                  <span>VENDOR</span>
+                  <p>
+                    I had the best experience shopping with vasiti. Usability of
+                    the website was great, very good customer service, an all
+                    round great experience. I would definately be coming back! I
+                    had the best experience shopping with vasiti. Usability of
+                    the website was great, very good customer service, an all
+                    round great experience. I would definately be coming back!
+                  </p>
+
+                  <div className='button'>
+                    <h1> SHARE YOUR OWN STORY! </h1>
+                    <svg
+                      width='297'
+                      height='12'
+                      viewBox='0 0 297 12'
+                      fill='none'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        d='M1 11.2012C71.3333 5.86791 228.8 -3.19875 296 3.20125'
+                        stroke='#FF5C00'
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <div className='testimony-image'>
+                <img src={Img1} alt='img' />
+              </div>
+            </Grid>
+          </Grid>
+        </div>
+      </div>
+
+      <div className='testimonies'>
+        <Grid container spacing={10}>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test7} alt='img' />
+              <h1>Temi Obadofin</h1>
+              <div className='customers-fluid'>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat
+                nostrud irure ex duis ea quis id quis ad et. Sunt qui esse
+                pariatur duis deserunt mollit dolore cillum minim tempor enim.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test8} alt='img' />
+              <h1>Promise Ejiofor</h1>
+              <div className='customers-fluid'>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deser unt ut voluptate aute id deserunt nisi. Amet minim mollit
+                non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                officia consequat duis enim velit mollit. Exercitation veniam
+                consequat sunt nostrud amet.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test9} alt='img' />
+              <h1>Feyisola Arinola</h1>
+              <div className='customers-fluid'>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deserunt ut voluptate aute id deserunt nisi. Elit aute irure
+                tempor cupidatat incididunt sint deser unt ut voluptate aute id
+                deserunt nisi. Amet minim mollit non deserunt ullamco est sit
+                aliqua dolor do amet sint.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test10} alt='img' />
+              <h1>Karen Ibeh</h1>
+              <div className='customers-fluid'>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat
+                nostrud irure ex duis ea quis id quis ad et. Sunt qui esse
+                pariatur duis deserunt mollit dolore cillum minim tempor enim.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test11} alt='img' />
+              <h1>Oluchi Uzo</h1>
+              <div className='customers-fluid'>
+                <span className='customers-green'>VENDOR</span>
+              </div>
+              <p>
+                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
+                Sunt qui esse pariatur duis deserunt mollit dolore cillum minim
+                tempor enim. Elit aute irure tempor cupidatat incididunt sint
+                deser unt ut voluptate aute id deserunt nisi. Amet minim mollit
+                non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                officia consequat duis enim velit mollit. Exercitation veniam
+                consequat sunt nostrud amet.
+              </p>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className='single-testimony'>
+              <img src={Test12} alt='img' />
+              <h1>Amos Okafor</h1>
+              <div className='customers-fluid'>
                 <span className='customers-green'>VENDOR</span>
               </div>
               <p>

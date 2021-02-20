@@ -2,7 +2,6 @@ import React from "react";
 import Img3 from "../../assets/subscribe-banner 1.png";
 import "./Footer.css";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 
 const Footer = () => {
   return (

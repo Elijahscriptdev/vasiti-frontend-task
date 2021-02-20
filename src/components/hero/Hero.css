@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+img {
+  width: 100%;
+}
+
+.hero {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.hero-text {
+  margin-left: 70px;
+  margin-top: 90px;
+}
+
+.hero-text h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  /* margin-left: 70px; */
+}
+
+.hero-text p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #494949;
+  /* margin-left: 70px; */
+}
+
+.hero-image img {
+  height: 460px;
+}

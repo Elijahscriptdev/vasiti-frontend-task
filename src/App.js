@@ -11,9 +11,9 @@ function App() {
       <NavBar />
       <Hero />
       <Testimony />
-      <Container maxWidth="md">
+      {/* <Container maxWidth="md">
         <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />
-      </Container>
+      </Container> */}
     </div>
   );
 }

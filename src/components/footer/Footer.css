@@ -1,0 +1,143 @@
+.footer {
+  background: #25201d;
+  color: #ffffff;
+}
+
+.first-footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.first-footer-img img {
+  width: 360px;
+  height: 300px;
+  margin-top: -40px;
+}
+
+.first-footer-text {
+  margin: 50px 0;
+  position: relative;
+}
+
+.first-footer-text h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  margin: 5px 0;
+}
+
+.first-footer-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  margin: 5px 0;
+}
+
+.second-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.first-footer-links svg {
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 30px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.first-footer-links ul {
+  list-style-type: none;
+}
+
+.first-footer-links h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.first-footer-links ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.svg ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 5px;
+}
+
+.first-footer-text input {
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  max-width: 368px;
+  color: #ffffff;
+}
+
+.btn-footer {
+  padding: 19px 25px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
+  border-radius: 4px;
+  position: absolute;
+  right: 80px;
+  top: 130px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  /* styles */
+  .footer {
+    padding: 0 30px;
+  }
+
+  .first-footer-img img {
+    width: 100%;
+  }
+
+  .second-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+  .first-footer-text input {
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    max-width: 100%;
+    color: #ffffff;
+  }
+
+  .btn-footer {
+    display: none;
+  }
+}

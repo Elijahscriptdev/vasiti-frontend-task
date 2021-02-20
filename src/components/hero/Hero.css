@@ -40,3 +40,46 @@ img {
 .hero-image img {
   height: 460px;
 }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .hero-text {
+    /* margin-left: 70px; */
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .hero-text h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    /* margin-left: 70px; */
+    text-align: left;
+  }
+  
+  .hero-text p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #494949;
+    margin-bottom: 15px;
+  }
+  
+  .hero-image img {
+    height: 360px;
+  }
+  
+}

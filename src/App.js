@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Hero from "./components/hero/Hero";
 import Testimony from "./components/testimonies/Testimony";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -11,9 +12,7 @@ function App() {
       <NavBar />
       <Hero />
       <Testimony />
-      {/* <Container maxWidth="md">
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }} />
-      </Container> */}
+      <Footer />
     </div>
   );
 }

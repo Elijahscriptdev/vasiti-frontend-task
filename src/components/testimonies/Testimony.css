@@ -215,3 +215,37 @@ img {
   width: 550px;
   height: 500px;
 }
+
+.none1 {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .testimony-content {
+    padding: 20px 20px;
+  }
+
+  .testimony-content2 {
+    padding: 50px 20px;
+  }
+
+  .testimony-image svg {
+    width: 100%;
+  }
+
+  .testimony-image2 img {
+    width: 100%;
+  }
+
+  .none1 {
+    display: block;
+  }
+
+  .none2 {
+    display: none;
+  }
+
+  .testimonies {
+    padding: 50px 20px;
+  }
+}

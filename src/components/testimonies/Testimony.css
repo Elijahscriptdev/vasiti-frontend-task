@@ -1,0 +1,66 @@
+.testimony {
+  background: #222222;
+  font-family: Inter;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.testimony-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.testimony-image img {
+  width: 550px;
+  height: 500px;
+}
+
+.customer-content .customer-text {
+  margin: 45px auto;
+  max-width: 417px;
+}
+
+.customer-text h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.customer-text span {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.customer-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin: 50px 0;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+}

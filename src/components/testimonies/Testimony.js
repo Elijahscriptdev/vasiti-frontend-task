@@ -215,7 +215,7 @@ const Testimony = () => {
               </div>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <div className='testimony-image'>
+              <div className='testimony-image2'>
                 <img src={Img1} alt='img' />
               </div>
             </Grid>

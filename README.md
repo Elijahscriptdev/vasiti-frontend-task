@@ -1,6 +1,7 @@
 # Vasiti Frontend Test
 
 This is Vasiti Frontend Test
+This is an additional feature of a website where clients can give feedbacks on their satisfaction.
 
 ---
 
